@@ -1,0 +1,18 @@
+git commit
+- creates snapshot of all the (tracked) files in your directory
+git branch <branch name>
+- creates pointers to a specific commit (nothing more)
+git checkout <branch name>
+- go to a different branch
+git checkout -b <branch name>
+- create branch and check it out at the same time
+git pull
+- both fetching and merging of remote changes
+git push
+- uploads shared work (publishes it)
+git merge <branch name>
+- creates special commit that has two unique parents
+git rebase <branch name>
+- takes a set of commits, "copies" them, and plops them down somewhere else
+git fetch
+- fetches data from remote repository
